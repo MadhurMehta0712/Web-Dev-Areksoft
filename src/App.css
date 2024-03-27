@@ -1,0 +1,71 @@
+.navbar {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff; /* Set background color to white */
+  padding: 10px 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Addedd drop shadow */
+}
+
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px; /* Adding margin between logo and text */
+}
+
+.search-text {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  margin-left: 20px; /* Add margin to the leftmargin-left */
+  padding-left: 20px; /* Add padding to the leftmargin-left */
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  margin-left: 20px; /* Add margin to the left */
+  padding-right: 20px; /* Increase padding to the right */
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between; /* Increase space between items */
+}
+
+.menu-item {
+  font-size: 15px;
+  cursor: pointer;
+  padding: 0 27px; /* Add padding to each menu item */
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+.login,
+.register {
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.register {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  margin-right: 8px;
+}
+
+.call-icon {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
